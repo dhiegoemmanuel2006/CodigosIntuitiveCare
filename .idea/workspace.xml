@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805e680a-2ab7-4505-a88f-6ce626c7bac9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
+    <list default="true" id="805e680a-2ab7-4505-a88f-6ce626c7bac9" name="Changes" comment="Update: Movendo a resposta do Teste 01, para outro diretório.">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Teste01/DownloadPDF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Teste01/DownloadPDF.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +70,50 @@
       <updated>1742855155991</updated>
       <workItem from="1742855157100" duration="4845000" />
       <workItem from="1742860763928" duration="1685000" />
-      <workItem from="1742912585271" duration="4034000" />
+      <workItem from="1742912585271" duration="5048000" />
     </task>
+    <task id="LOCAL-00001" summary="Add: Adicionando ao pom.xml as dependênciado Jsoup para conectar ao site e fazer cssQuery para conseguir pegar os links de download do site">
+      <option name="closed" value="true" />
+      <created>1742916902091</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742916902091</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add: Adicionando ao pom.xml as dependênciado Jsoup para conectar ao site e fazer cssQuery para conseguir pegar os links de download do site">
+      <option name="closed" value="true" />
+      <created>1742917064843</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742917064843</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add: Parte 01 do Teste, primeiro realiza download de todos arquivos e salva localmente e uma paste. Logo depois baixa novamente os arquivos e salva compactado em um zip.">
+      <option name="closed" value="true" />
+      <created>1742917141175</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742917141175</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update: Movendo a resposta do Teste 01, para outro diretório.">
+      <option name="closed" value="true" />
+      <created>1742917295148</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742917295148</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add: Adicionando ao pom.xml as dependênciado Jsoup para conectar ao site e fazer cssQuery para conseguir pegar os links de download do site" />
+    <MESSAGE value="Add: Parte 01 do Teste, primeiro realiza download de todos arquivos e salva localmente e uma paste. Logo depois baixa novamente os arquivos e salva compactado em um zip." />
+    <MESSAGE value="Update: Movendo a resposta do Teste 01, para outro diretório." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update: Movendo a resposta do Teste 01, para outro diretório." />
   </component>
 </project>
