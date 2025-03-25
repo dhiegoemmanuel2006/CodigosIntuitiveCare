@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805e680a-2ab7-4505-a88f-6ce626c7bac9" name="Changes" comment="Update: Movendo a resposta do Teste 01, para outro diretório.">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+    <list default="true" id="805e680a-2ab7-4505-a88f-6ce626c7bac9" name="Changes" comment="add: Primeira tentativa de resposta para o teste02">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Teste01/DownloadPDF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Teste01/DownloadPDF.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,24 +32,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Application.executor": "Run",
+    "Application.PDFTableExtractor.executor": "Run",
+    "Application.PDFToCSVConverter.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -70,7 +70,7 @@
       <updated>1742855155991</updated>
       <workItem from="1742855157100" duration="4845000" />
       <workItem from="1742860763928" duration="1685000" />
-      <workItem from="1742912585271" duration="5048000" />
+      <workItem from="1742912585271" duration="9708000" />
     </task>
     <task id="LOCAL-00001" summary="Add: Adicionando ao pom.xml as dependênciado Jsoup para conectar ao site e fazer cssQuery para conseguir pegar os links de download do site">
       <option name="closed" value="true" />
@@ -104,7 +104,39 @@
       <option name="project" value="LOCAL" />
       <updated>1742917295148</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update: Movendo a resposta do Teste 01, para outro diretório.">
+      <option name="closed" value="true" />
+      <created>1742917891696</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742917891696</updated>
+    </task>
+    <task id="LOCAL-00006" summary="null">
+      <option name="closed" value="true" />
+      <created>1742917901195</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742917901195</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add: Dependência tabula-java com função de extrair os dados da tabela de melhor forma">
+      <option name="closed" value="true" />
+      <created>1742925167007</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742925167008</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add: Primeira tentativa de resposta para o teste02">
+      <option name="closed" value="true" />
+      <created>1742925192865</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1742925192865</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +146,9 @@
     <MESSAGE value="Add: Adicionando ao pom.xml as dependênciado Jsoup para conectar ao site e fazer cssQuery para conseguir pegar os links de download do site" />
     <MESSAGE value="Add: Parte 01 do Teste, primeiro realiza download de todos arquivos e salva localmente e uma paste. Logo depois baixa novamente os arquivos e salva compactado em um zip." />
     <MESSAGE value="Update: Movendo a resposta do Teste 01, para outro diretório." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update: Movendo a resposta do Teste 01, para outro diretório." />
+    <MESSAGE value="null" />
+    <MESSAGE value="Add: Dependência tabula-java com função de extrair os dados da tabela de melhor forma" />
+    <MESSAGE value="add: Primeira tentativa de resposta para o teste02" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: Primeira tentativa de resposta para o teste02" />
   </component>
 </project>

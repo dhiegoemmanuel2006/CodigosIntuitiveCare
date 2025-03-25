@@ -5,10 +5,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
+import java.io.*;
 import java.net.URL;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
@@ -20,6 +17,13 @@ public class DownloadPDF {
          Document doc = Jsoup.connect(url).get();
          Elements PDFs = doc.select("a:contains(Anexo I.), a:contains(Anexo II.)");
 
+        donwloadPDFs(PDFs);//Função somente para baixar e salvar no pc local
+
+         zipCreate(PDFs);//Função para baixar pela URL e compactar ambos para zip
+
+     }
+
+     public static void donwloadPDFs (Elements PDFs){
          int count = 0;
          for(Element PDF : PDFs) {
              String urlArquivo = PDF.attr("href");
@@ -34,9 +38,10 @@ public class DownloadPDF {
 
              if(count == 2) break;
          }
+     }
 
-         try(
-             ZipOutputStream zipOutputStream = new ZipOutputStream(new FileOutputStream("c:\\resultados\\anexos.zip"))){
+     public static void zipCreate(Elements PDFs) throws IOException {
+         try(ZipOutputStream zipOutputStream = new ZipOutputStream(new FileOutputStream("c:\\resultados\\anexos.zip"))){
              int countZip = 0;
              for(Element PDF : PDFs) {
                  String urlArquivo = PDF.attr("href");
@@ -45,6 +50,8 @@ public class DownloadPDF {
                      dataAsByte = inputStream.readAllBytes();
                      zipOutputStream.putNextEntry(new ZipEntry("anexo"+ ++countZip + ".pdf"));
                      zipOutputStream.write(dataAsByte);
+                 } catch (IOException e) {
+                     throw new RuntimeException(e);
                  }
              }
          }
