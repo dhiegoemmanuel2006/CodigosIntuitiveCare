@@ -36,7 +36,7 @@ public class DownloadPDF {
          }
 
          try(
-                 ZipOutputStream zipOutputStream = new ZipOutputStream(new FileOutputStream("c:\\resultados\\anexos.zip"))){
+             ZipOutputStream zipOutputStream = new ZipOutputStream(new FileOutputStream("c:\\resultados\\anexos.zip"))){
              int countZip = 0;
              for(Element PDF : PDFs) {
                  String urlArquivo = PDF.attr("href");
