@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805e680a-2ab7-4505-a88f-6ce626c7bac9" name="Changes" comment="add: Primeira tentativa de resposta para o teste02">
+    <list default="true" id="805e680a-2ab7-4505-a88f-6ce626c7bac9" name="Changes" comment="update: Transformando o que acontece no código em dois métodos separados para melhor entendimento">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Teste02/other.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Teste01/DownloadPDF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Teste01/DownloadPDF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Teste02/PDFTableExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Teste02/PDFTableExtractor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +39,10 @@
     "Application.Application.executor": "Run",
     "Application.PDFTableExtractor.executor": "Run",
     "Application.PDFToCSVConverter.executor": "Run",
+    "JUnit.DownloadPDFTest.executor": "Run",
+    "JUnit.DownloadPDFTest.testDownloadPDFs.executor": "Debug",
+    "JUnit.DownloadPDFTest.testDownloadPDFsIOException.executor": "Run",
+    "JUnit.DownloadPDFTest.testZipCreate.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -52,6 +58,91 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.other">
+    <configuration name="PDFTableExtractor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Teste02.PDFTableExtractor" />
+      <module name="TesteWebScrapingDhiego" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Teste02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="other" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Teste02.other" />
+      <module name="TesteWebScrapingDhiego" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Teste02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DownloadPDFTest.testDownloadPDFs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TesteWebScrapingDhiego" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Teste01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Teste01" />
+      <option name="MAIN_CLASS_NAME" value="Teste01.DownloadPDFTest" />
+      <option name="METHOD_NAME" value="testDownloadPDFs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DownloadPDFTest.testDownloadPDFsIOException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TesteWebScrapingDhiego" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Teste01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Teste01" />
+      <option name="MAIN_CLASS_NAME" value="Teste01.DownloadPDFTest" />
+      <option name="METHOD_NAME" value="testDownloadPDFsIOException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DownloadPDFTest.testZipCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TesteWebScrapingDhiego" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Teste01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Teste01" />
+      <option name="MAIN_CLASS_NAME" value="Teste01.DownloadPDFTest" />
+      <option name="METHOD_NAME" value="testZipCreate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.other" />
+        <item itemvalue="Application.PDFTableExtractor" />
+        <item itemvalue="JUnit.DownloadPDFTest.testZipCreate" />
+        <item itemvalue="JUnit.DownloadPDFTest.testDownloadPDFsIOException" />
+        <item itemvalue="JUnit.DownloadPDFTest.testDownloadPDFs" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -70,7 +161,8 @@
       <updated>1742855155991</updated>
       <workItem from="1742855157100" duration="4845000" />
       <workItem from="1742860763928" duration="1685000" />
-      <workItem from="1742912585271" duration="9708000" />
+      <workItem from="1742912585271" duration="10490000" />
+      <workItem from="1742934262048" duration="1759000" />
     </task>
     <task id="LOCAL-00001" summary="Add: Adicionando ao pom.xml as dependênciado Jsoup para conectar ao site e fazer cssQuery para conseguir pegar os links de download do site">
       <option name="closed" value="true" />
@@ -136,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742925192865</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update: Transformando o que acontece no código em dois métodos separados para melhor entendimento">
+      <option name="closed" value="true" />
+      <created>1742928921339</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1742928921339</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +249,7 @@
     <MESSAGE value="null" />
     <MESSAGE value="Add: Dependência tabula-java com função de extrair os dados da tabela de melhor forma" />
     <MESSAGE value="add: Primeira tentativa de resposta para o teste02" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: Primeira tentativa de resposta para o teste02" />
+    <MESSAGE value="update: Transformando o que acontece no código em dois métodos separados para melhor entendimento" />
+    <option name="LAST_COMMIT_MESSAGE" value="update: Transformando o que acontece no código em dois métodos separados para melhor entendimento" />
   </component>
 </project>
